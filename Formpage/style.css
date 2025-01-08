@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-image: url('https://th.bing.com/th/id/OIP.lV5b5qlqCXOihCtGMYs27AAAAA?w=474&h=266&rs=1&pid=ImgDetMain'); */
+    background-color: #030843d3;
+}
+.wrapper{
+    border: 2px solid #b3b5b7;
+    width: 400px;
+    padding: 30px 20px;
+    box-shadow: 0 0 8px #b3b5b7;
+    color: azure;
+
+}
+.wrapper h1{
+    color: azure;
+    text-align: center;
+    font-size: 36px;
+}
+.input-box{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    margin-top: 20px;
+    border-bottom: 2px solid #fbfafa;
+
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    padding: 20px 40px 20px 20px;
+    color:#b3b5b7;
+}
+.remeber-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 25px;
+}
+.remeber-forgot input{
+    color: #fbfafa;
+    margin-right: 3px;
+}
+.remeber-forgot a{
+    color: #fbfafa;
+    text-decoration: none;
+}
+ .remeber-forgot a:hover{ 
+    text-decoration: underline;
+    color: pink;
+ } 
+.btn{
+    width: 90%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #fbfafa;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0 0 10px #b3b5b7;
+}
